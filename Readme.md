@@ -1,5 +1,7 @@
 # cowsay-slack
 
+![moo](http://goo.gl/swrbwK)
+
 Post `cowsay` messages in slack.
 ```
  ______ 
@@ -25,7 +27,8 @@ cd cowsay-slack
 bundle install
 ```
 Edit env.example with your environment variables and save it as .env
-`heroku local`
+
+run `heroku local`
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
 
