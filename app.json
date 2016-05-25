@@ -1,0 +1,9 @@
+{
+  "name": "cowsay-slack",
+  "description": "A barebones Node.js app using Express 4",
+  "repository": "https://github.com/avidit/cowsay-slack",
+  "logo": "http://goo.gl/swrbwK",
+  "addons": ["heroku/ruby"],
+  "keywords": ["cowsay", "slack", "cowsay-slack"],
+  "env": {"SLACK_TOKEN": null}
+}
