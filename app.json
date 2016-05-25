@@ -1,6 +1,6 @@
 {
   "name": "cowsay-slack",
-  "description": "A barebones Node.js app using Express 4",
+  "description": "A slack-bot to post cowsay messages",
   "repository": "https://github.com/avidit/cowsay-slack",
   "logo": "http://goo.gl/swrbwK",
   "addons": ["heroku/ruby"],
