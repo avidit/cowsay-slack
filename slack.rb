@@ -16,7 +16,7 @@ response_url=https://hooks.slack.com/commands/1234/5678
 '''
 
 def post_msg(response_type, username, channel, icon_url, icon_emoji, payload)
-	data = { response_type: response_type, username: username, channel: channel, text: payload }
-	(icon_url) ? (data['icon_url'] = icon_url) : (icon_emoji) ? (data['icon_emoji'] = icon_emoji) : data['icon_emoji'] = ':cow:'
-	data
+  data = { response_type: response_type, username: username, channel: channel, text: payload }
+  (icon_url) ? (data['icon_url'] = icon_url) : (icon_emoji) ? (data['icon_emoji'] = icon_emoji) : data['icon_emoji'] = ':cow:'
+  data
 end

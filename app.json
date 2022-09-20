@@ -1,9 +1,7 @@
 {
   "name": "cowsay-slack",
-  "description": "A slack-bot to post cowsay messages",
+  "description": "A slack slash command to post cowsay messages in slack",
   "repository": "https://github.com/avidit/cowsay-slack",
-  "logo": "http://goo.gl/swrbwK",
-  "addons": ["heroku/ruby"],
   "keywords": ["cowsay", "slack", "cowsay-slack"],
   "env": {"SLACK_TOKEN": null}
 }
